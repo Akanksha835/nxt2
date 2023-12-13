@@ -1,0 +1,18 @@
+INSERT INTO category(name,description)
+VALUES('Electronics','Gadgets and devices for everyday use');
+INSERT INTO category(name,description)
+VALUES('Books','Novels,textbooks,and other reading material');
+INSERT INTO category(name,description)
+VALUES('Fashion','clothing,footwear,and accessories');
+INSERT INTO product(name,description,price,categoryId)
+VALUES('Laptop','A high performance laptop suitable for gamingand professional tasks',50000.00,1);
+INSERT INTO product(name,description,price,categoryId)
+VALUES('Bluetooth speaker','A portable speaker with excellent sound quality',2500.00,1);
+INSERT INTO product(name,description,price,categoryId)
+VALUES('Mystery Novel','A thrilling novel full of twists and turns',500.00,2);
+INSERT INTO product(name,description,price,categoryId)
+VALUES('History Textbooks','A comprehensive guide to world history',400.00,2);
+INSERT INTO product(name,description,price,categoryId)
+VALUES('Leather Jacket','A stylish jacket made of genuine leather',2200.00,3);
+INSERT INTO product(name,description,price,categoryId)
+VALUES('Running shoes','comfortable shoes perfect for jogging',700.00,3)
